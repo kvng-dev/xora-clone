@@ -1,7 +1,9 @@
+import Faq from "./pages/Faq";
 import Features from "./pages/Features";
 import Header from "./pages/Header";
 import Hero from "./pages/Hero";
 import Pricing from "./pages/Pricing";
+import Testimonials from "./pages/Testimonials";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Hero />
       <Features />
       <Pricing />
+      <Faq />
+      <Testimonials />
     </main>
   );
 }
