@@ -1,6 +1,7 @@
 import Features from "./pages/Features";
 import Header from "./pages/Header";
 import Hero from "./pages/Hero";
+import Pricing from "./pages/Pricing";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Hero />
       <Features />
+      <Pricing />
     </main>
   );
 }
