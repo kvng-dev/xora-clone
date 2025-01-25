@@ -1,5 +1,7 @@
+import Download from "./pages/Download";
 import Faq from "./pages/Faq";
 import Features from "./pages/Features";
+import Footer from "./pages/Footer";
 import Header from "./pages/Header";
 import Hero from "./pages/Hero";
 import Pricing from "./pages/Pricing";
@@ -14,6 +16,8 @@ function App() {
       <Pricing />
       <Faq />
       <Testimonials />
+      <Download />
+      <Footer />
     </main>
   );
 }
